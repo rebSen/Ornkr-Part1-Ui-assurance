@@ -1,0 +1,19 @@
+{
+  "name": "ornikar",
+  "version": "1.0.0",
+  "description": "sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter features/openSurvey.feature"
+  },
+  "author": "rs",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.7"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.9.0"
+  }
+}
